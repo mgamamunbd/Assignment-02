@@ -132,8 +132,8 @@ small.text-section {
 .social-media a {
   justify-content: center;
   align-items: center;
-  padding: 0px 10px;
+  padding: 20px 10px;
   color: white;
-  background-color: rgb(34, 33, 33);
-  border-radius: 200%;
+  /* background-color: rgb(34, 33, 33); */
+  /* border-radius: 200%; */
 }
