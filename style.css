@@ -14,24 +14,23 @@ body {
 /* common css */
 .container {
   max-width: 1200px;
+  /* max-height: 800px; */
   margin: 0 auto;
   padding: 10px 30px;
-  /* line-height: 2em; */
+  /* line-height: 1.5em; */
 }
 .primary-button {
-  outline: 0;
-  border: 0;
-  padding: 15px 20px;
-  background-image: linear-gradient(85deg) red red;
-  color: rgb(218, 39, 39);
-  font-size: 18px;
-  border-radius: 10px;
-  cursor: pointer;
-  border: black;
-  justify-content: center;
-  align-items: center;
-  margin: 5px 0px;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, rgb(233, 12, 104), rgb(196, 14, 75));
+  font-weight: bold;
 }
+/* button span {
+  padding-right: 20px;
+} */
 .section-title {
   text-align: center;
 }
@@ -44,7 +43,7 @@ body {
 /* Header section start from here */
 #home {
   margin-top: 40px;
-  margin-bottom: 50px;
+  /* margin-bottom: 30px; */
 }
 nav {
   display: flex;
@@ -64,8 +63,8 @@ nav {
   color: black;
   padding: 15px 10px;
 }
-.banner {
-  height: calc(100vh - 80px);
+.banner-top {
+  height: calc(85vh - 80px);
   min-height: 500px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -106,7 +105,7 @@ nav {
   border-bottom: 1px solid rgba(233, 231, 231, 0.74);
   justify-content: center;
   align-items: center;
-  padding: 20px 0;
+  padding: 20px 20px;
 }
 .logo img {
   margin: 0px 30px;
@@ -119,7 +118,68 @@ nav {
   grid-gap: 30px;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
+  line-height: 1.5em;
+  /* margin-top: 40px; */
 }
+.rating-section {
+  font-size: 8px;
+}
+.filled {
+  color: goldenrod;
+}
+.unfilled {
+  color: goldenrod;
+}
+.card p {
+  font-size: 12px;
+  color: gray;
+}
+.see-more {
+  text-align: right;
+}
+.see-more a {
+  text-decoration: none;
+  color: mediumvioletred;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+/* Banner Bottom start from here */
+.banner-bottom {
+  /* height: calc(85vh - 80px); */
+  /* min-height: 500px; */
+  display: flex;
+  /* grid-template-columns: repeat(2, 1fr); */
+}
+.banner-bottom-left {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+.banner-bottom-left h1 {
+  font-size: 45px;
+  color: black;
+}
+.banner-bottom-left p {
+  color: black;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+.banner-bottom-right {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+.banner-bottom-left img {
+  /* border: 1px solid rgb(233, 227, 227); */
+  /* border-radius: 100%; */
+  padding: 10px;
+  width: 50%;
+  align-items: ;
+}
+/* Banner Bottom end here */
+
 /* Popular Collection section end here */
 /* footer section start from here */
 footer {
