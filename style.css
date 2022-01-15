@@ -41,6 +41,7 @@ body {
   /* border-bottom: 2px solid #ff008e; */
   margin: 50px 0;
 }
+/* Header section start from here */
 #home {
   margin-top: 40px;
   margin-bottom: 50px;
@@ -95,6 +96,8 @@ nav {
   border-radius: 100%;
   padding: 10px;
 }
+/* Header section end here */
+/* Company Logo Section start from here */
 #company-logo {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -109,14 +112,16 @@ nav {
   margin: 0px 30px;
   object-fit: cover;
 }
+/* Company Logo Section end here */
+/* Popular Collection section start from here */
 .collection {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
 }
-
-/* footer section */
+/* Popular Collection section end here */
+/* footer section start from here */
 footer {
   background-color: #0a0826;
   height: 200px;
@@ -137,3 +142,4 @@ small.text-section {
   /* background-color: rgb(34, 33, 33); */
   /* border-radius: 200%; */
 }
+/* footer section end here */
