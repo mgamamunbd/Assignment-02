@@ -15,10 +15,9 @@ body {
 /* common css */
 .container {
   max-width: 1200px;
-  /* max-height: 800px; */
+
   margin: 0 auto;
   padding: 10px 30px;
-  /* line-height: 1.5em; */
 }
 .primary-button {
   text-decoration: none;
@@ -29,10 +28,6 @@ body {
   background: linear-gradient(45deg, rgb(233, 12, 104), rgb(196, 14, 75));
   font-weight: bold;
 }
-
-/* button span {
-  padding-right: 20px;
-} */
 .section-title {
   text-align: center;
 }
@@ -113,7 +108,7 @@ nav {
   align-items: flex-start;
 }
 .banner-right img {
-  border: 1px solid rgb(206, 198, 198);
+  border: 1px solid gray;
   border-radius: 100%;
   padding: 10px;
   transition: width 5s, height 5s, transform 10s;
@@ -131,6 +126,7 @@ nav {
   grid-gap: 30px;
   border-top: 1px solid rgba(192, 178, 178, 0.74);
   border-bottom: 1px solid rgba(192, 178, 178, 0.74);
+  border-radius: 5px;
   justify-content: center;
   align-items: center;
   padding: 20px 20px;
@@ -155,9 +151,10 @@ nav {
 .card {
   background-color: white;
   border-radius: 5px;
+  border: 1px solid gray;
   width: 329px;
   height: 476px;
-  box-shadow: 5px 7px 20px gray;
+  box-shadow: 2px 2px 4px gray;
 }
 .card:hover {
   border: 2px solid rgb(233, 12, 104);
@@ -190,21 +187,15 @@ a {
   text-decoration: none;
   color: mediumvioletred;
   font-size: 15px;
+  align-items: center;
 }
-.see-more,
-a:hover {
-  border: 1px solid gray;
-}
-
 /* Popular Collection section end here */
 /* Banner Bottom start from here */
 .banner-bottom {
-  /* height: calc(100vh - 80px); */
   min-height: 500px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 0 auto;
-  /* border: 1px solid gray; */
 }
 .banner-bottom-right h1 {
   font-size: 45px;
@@ -223,9 +214,7 @@ a:hover {
   align-items: flex-start;
 }
 .banner-bottom-left img {
-  border: 3px solid rgb(255, 255, 255);
-  /* border-radius: 100%; */
-  /* padding: 50px 50px; */
+  border: 1px solid rgb(255, 255, 255);
   width: 100%;
   margin: 38px -88px 5px -33px;
   box-shadow: 1px 1px 10px gray;
@@ -236,7 +225,6 @@ a:hover {
 /* Banner Bottom end here */
 /* footer section start from here */
 footer {
-  /* display: flex; */
   margin-top: 60px;
   background-color: #0a0826;
   height: 200px;
@@ -272,7 +260,6 @@ footer {
   }
   .banner-right img {
     width: 50%;
-    /* height: 50%; */
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -287,7 +274,6 @@ footer {
     flex-direction: column;
     grid-gap: 50px;
     grid-template-rows: repeat(1, 1fr);
-    /* grid-template-columns: repeat(1, 1fr); */
     justify-content: center;
     align-items: center;
   }
@@ -318,17 +304,11 @@ footer {
 }
 @media screen and (max-width: 900px) {
   .card-icon {
-    /* width: 50%; */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     align-items: center;
   }
-  /* .banner-left h1 {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    align-items: center;
-  } */
   .banner-right img {
     display: flex;
     flex-direction: column;
@@ -344,7 +324,6 @@ footer {
     flex-direction: column;
     grid-gap: 50px;
     grid-template-rows: repeat(1, 1fr);
-    /* grid-template-columns: repeat(1, 1fr); */
     justify-content: center;
     align-items: center;
   }
