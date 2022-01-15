@@ -170,11 +170,12 @@ nav {
 /* Popular Collection section end here */
 /* Banner Bottom start from here */
 .banner-bottom {
-  height: calc(100vh - 80px);
+  /* height: calc(100vh - 80px); */
   min-height: 500px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 10px;
+  margin: 0 auto;
+  /* border: 1px solid gray; */
 }
 .banner-bottom-right {
   /* display: flex; */
@@ -182,11 +183,11 @@ nav {
   /* justify-content: center; */
   /* align-items: flex-start; */
 }
-.banner-bottom-left h1 {
+.banner-bottom-right h1 {
   font-size: 45px;
   color: black;
 }
-.banner-bottom-left p {
+.banner-bottom-right p {
   color: black;
   font-size: 18px;
   line-height: 1.5;
@@ -198,16 +199,18 @@ nav {
   justify-content: center;
   align-items: flex-start;
 }
-.banner-bottom-right img {
-  border: 1px solid rgb(233, 227, 227);
-  border-radius: 100%;
-  padding: 10px;
+.banner-bottom-left img {
+  /* border: 1px solid rgb(233, 227, 227); */
+  /* border-radius: 100%; */
+  padding: 50px 50px;
+  width: 100%;
+  margin: 38px -88px 5px -90px;
 }
 /* Banner Bottom end here */
 /* footer section start from here */
 footer {
   /* display: flex; */
-  /* margin-top: 50px; */
+  margin-top: 60px;
   background-color: #0a0826;
   height: 200px;
   text-align: center;
