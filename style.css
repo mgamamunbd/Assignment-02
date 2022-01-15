@@ -122,7 +122,7 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   line-height: 1.5em;
-  margin-bottom: 30px;
+  /* margin: 0 40px; */
   /* margin: 0 auto; */
   /* align-items: center; */
   /* margin-top: 40px; */
@@ -200,11 +200,11 @@ nav {
   align-items: flex-start;
 }
 .banner-bottom-left img {
-  /* border: 1px solid rgb(233, 227, 227); */
+  border: 3px solid rgb(255, 255, 255);
   /* border-radius: 100%; */
-  padding: 50px 50px;
+  /* padding: 50px 50px; */
   width: 100%;
-  margin: 38px -88px 5px -90px;
+  margin: 38px -88px 5px -33px;
 }
 /* Banner Bottom end here */
 /* footer section start from here */
@@ -215,7 +215,7 @@ footer {
   height: 200px;
   text-align: center;
   color: white;
-  /* justify-content: center; */
+  padding-top: 50px;
 }
 /* .text-section h3 {
   font-weight: 30px;
